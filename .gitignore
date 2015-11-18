@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+.DS_Store
+=======
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+
+# Ignore vagrant files
+.vagrant/
+>>>>>>> f855b9e8850f12694aa176e07f581e66a8a0a818

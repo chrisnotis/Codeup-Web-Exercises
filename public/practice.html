@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Warpspeed Form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h4>Basic Info</h4>
+			<form method="POST" action="form.php" id="form">
+		<p>	
+			<label for="name">Name</label>
+			<input id="name" name="name" type="text" placeholder="name">
+		</p>
+		<p>	
+			<label for="password">Password</label>
+			<input id="password" name="password" type="password" placeholder="password here">
+		</p>
+		<p>	
+			<label for="review">Review</label>
+			<textarea for="review" name="review" rows="5" cols="40" placeholder="enter your text here"></textarea>
+		</p>		
+		<p>
+			<input type="checkbox" id="mailing_list" value="yes">
+			<label for="mailing_list">Sign me up!</label>
+		</p>
+		<p>What OS do you use?</p>
+			<label>Linux<input checked="checked" type="checkbox" id="os1" value="linux" name="os[]">
+			</label>
+			<label>Windows<input type="checkbox" id="os2" value="windows" name="os[]">
+			</label>
+			<label>OSX<input type="checkbox" id="os3" value="OSX" name="os[]">
+			</label>
+			<label>Blah<input type="checkbox" id="os4" value="blah" name="os[]">
+			</label>
+		<p>What is Dylan's Favorite Band?</p>
+			<label>
+				<input type="radio" name="band" value="Nickelback">Nickelback
+			</label>
+			<label>
+				<input type="radio" name="band" value="SpiceGirls">Spice Girls
+			</label>
+			<label>
+				<input type="radio" name="band" value="Metallica">Metallica
+			</label>
+		<p>
+			<label for="transmission">Transmissions</label>
+			<select id="transmission" name="transmission">
+				<option>Automatic</option>
+				<option selected>Manual</option>
+				<option>3 Speed</option>
+			</select>
+		</p>
+
+			<button type="submit">Submit</button>
+			</form>
+		
+		</header>
+	</body>
+</html>
