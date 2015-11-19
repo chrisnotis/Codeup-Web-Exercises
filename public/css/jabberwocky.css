@@ -8,8 +8,19 @@ article {
 	font-weight: bolder;
 }
 
+a {
+	font-size: 65px;
+	font-family: "papyrus";
+	color: #000;
+}
+
+p {
+	font-family: "arial";
+}
+
 #author-name {
 	font-size: 36px;
+	font-family: "times";
 }
 
 #strikethrough-name {
@@ -27,4 +38,12 @@ article {
 .right-justified {
 	text-align: right;
 	text-indent: 35px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
