@@ -6,6 +6,7 @@ html {
 article {
 	font-size: 48px;
 	font-weight: bolder;
+
 }
 
 a {
@@ -21,6 +22,7 @@ p {
 #author-name {
 	font-size: 36px;
 	font-family: "times";
+	line-height: 24px;
 }
 
 #strikethrough-name {
