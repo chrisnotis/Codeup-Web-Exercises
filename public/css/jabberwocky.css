@@ -1,0 +1,30 @@
+html {
+	font-family: times, arial, "papyrus", sansserif;
+}
+
+
+article {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+#author-name {
+	font-size: 36px;
+}
+
+#strikethrough-name {
+	text-decoration: line-through;
+	background-color: #f00;
+	display: inline;
+}
+
+
+.left-justified {
+	text-align: left;
+	text-indent: 80px;
+}
+
+.right-justified {
+	text-align: right;
+	text-indent: 35px;
+}
