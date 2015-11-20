@@ -1,0 +1,58 @@
+p {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 5px 0px 20px 0px;
+}
+
+div{
+	width: 150px;
+	height: 50px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 5px;
+}
+
+#red-box { 
+	background-color:#D84231;
+}
+
+#orange-box {
+	background-color:#EAAE33;
+	margin-left: 30px;
+}
+
+#yellow-box {
+	background-color:#FDF733;
+	margin-left: 60px;
+}
+
+#green-box {
+	background-color:#578C05;
+	margin-left: 90px;
+}
+
+#blue-box {
+	background-color:#234AFB;
+	margin-left: 120px;
+}
+
+#pink-box {
+	background-color:#DF8BF0;
+	margin-left: 150px;
+}
+
+
+
+
+
+/*
+<a href="https://en.wikipedia.org/wiki/Visible_spectrum">Visible Spectrum Wavelengths</a>
+	<div id="red-box">620-750 nm</div>
+	<div id="orange-box">590-620 nm</div>
+	<div id="yellow-box">570-590 nm</div>
+	<div id="green-box">495-570 nm</div>
+	<div id="blue-box">450-495 nm</div>
+	<div id="pink-box">380-450 nm</div*/>
+
