@@ -1,12 +1,12 @@
-html {
-	font-family: times, arial, "papyrus", sansserif;
-}
+/*look into pre element - was suggested for poems?*/
 
+html {
+	font-family: times, arial, "papyrus", sans-serif;
+}
 
 article {
 	font-size: 48px;
 	font-weight: bolder;
-
 }
 
 a {
@@ -16,7 +16,7 @@ a {
 }
 
 p {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: "arial";
 }
 
