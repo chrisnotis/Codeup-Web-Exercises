@@ -18,8 +18,12 @@ img {
 	right: -40px;
 }
 
-div:nth-last-of-type(3) {
+/*div:nth-last-of-type(3) {
 	clear: left;
+}*/
+
+div:nth-child(3n+4) {
+	clear: both;
 }
 
 .box {
@@ -51,24 +55,25 @@ div:nth-last-of-type(3) {
 
 #yellow-box {
 	background-color:#FDF733;
-	left: 100px;
+	top: 50px;
 }
 
 #green-box {
 	background-color:#578C05;
 	/*clear: left;*/
 	top: 50px;
+	left: 50px;
 }
 
 #blue-box {
 	background-color:#234AFB;
-	left: 50px;
-	top: 50px;
+	top: 100px;
+	clear: left;
 }
 
 #pink-box {
 	background-color:#DF8BF0;
-	left: 100px;
-	top: 50px;
+	left: 120px;
+	top: 30px;
 }
 
