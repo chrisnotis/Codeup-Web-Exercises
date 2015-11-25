@@ -1,37 +1,24 @@
-/*html {
-		box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit; 
-}*/
-
 p {
 	font-size: 24px;
 	font-weight: bold;
 	margin: 5px 0px 0px 0px;
 }
 
-img {
-	position: absolute;
-	top: -40px;
-	right: -40px;
-}
-
 /*div:nth-last-of-type(3) {
 	clear: left;
 }*/
 
-.box:nth-child(2n+4) {
+.box:nth-child(2n+2) {
 	clear: left;
 }
 
 .box {
-	top:50px;
-	height: 70;
-	width: 70;
-	margin: 50px 50px 0px 0px;
+	margin: 10px 10px 0px 0px;
 	float: left;
+	background: url('/img/codeup-arrow.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 40px 40px 0px 0px; 
 }
 
 .inside{
@@ -40,7 +27,6 @@ img {
 	font-weight: bold;
 	color: #fff;
 	padding: 10px;
-	/*float: left;*/
 	position: relative;
 	border: 1px solid black;
 }
@@ -60,19 +46,12 @@ img {
 
 #green-box {
 	background-color:#578C05;
-	/*clear: left;*/
-	/*top: 50px;
-	left: 50px;
-*/}
+}
 
 #blue-box {
 	background-color:#234AFB;
-	/*top: 100px;
-	clear: left;*/
 }
 
 #pink-box {
 	background-color:#DF8BF0;
-	/*left: 120px;
-	top: 30px;*/
 }
