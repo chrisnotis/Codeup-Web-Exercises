@@ -22,15 +22,16 @@ img {
 	clear: left;
 }*/
 
-div:nth-child(3n+4) {
-	clear: both;
+.box:nth-child(2n+4) {
+	clear: left;
 }
 
 .box {
 	top:50px;
 	height: 70;
 	width: 70;
-	margin: 50px 0px 0px 0px;
+	margin: 50px 50px 0px 0px;
+	float: left;
 }
 
 .inside{
@@ -39,7 +40,7 @@ div:nth-child(3n+4) {
 	font-weight: bold;
 	color: #fff;
 	padding: 10px;
-	float: left;
+	/*float: left;*/
 	position: relative;
 	border: 1px solid black;
 }
@@ -50,30 +51,28 @@ div:nth-child(3n+4) {
 
 #orange-box {
 	background-color:#EAAE33;
-	left: 50px;
 }
 
 #yellow-box {
 	background-color:#FDF733;
-	top: 50px;
+	
 }
 
 #green-box {
 	background-color:#578C05;
 	/*clear: left;*/
-	top: 50px;
+	/*top: 50px;
 	left: 50px;
-}
+*/}
 
 #blue-box {
 	background-color:#234AFB;
-	top: 100px;
-	clear: left;
+	/*top: 100px;
+	clear: left;*/
 }
 
 #pink-box {
 	background-color:#DF8BF0;
-	left: 120px;
-	top: 30px;
+	/*left: 120px;
+	top: 30px;*/
 }
-
