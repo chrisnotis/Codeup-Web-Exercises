@@ -1,0 +1,197 @@
+
+/*
+Flag box - sizing with 1 px border
+*/
+
+.flag-border {
+	width: 200px;
+	height: 125px;
+	border: 1px solid gray;
+	margin-top: 5px;
+	overflow: hidden;
+}
+/*--------------------------------------------
+------------AMERICAN FLAG---------------------
+*/
+.stripes {
+	background-color: #f00;
+	background-image: linear-gradient(transparent 50%, #fff 50%);
+	background-size: 16px 17px;
+}
+
+.stars {
+	height: 65px;
+	width: 100px;
+	/*position: absolute;*/
+	background:
+linear-gradient(324deg, #00f 4%,   transparent 4%) -70px 43px,
+linear-gradient( 36deg, #00f 4%,   transparent 4%) 30px 43px,
+linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 30px 43px,
+linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -70px 43px,
+linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -70px 23px,
+linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 30px 23px,
+
+linear-gradient(324deg, #00f 4%,   transparent 4%) -20px 93px,
+linear-gradient( 36deg, #00f 4%,   transparent 4%) 80px 93px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background-color: #00f;
+background-size: 100px 100px;
+}
+
+/*--------------------------------------------
+------------JAPANESE FLAG---------------------
+*/
+.circle {
+width: 75px;
+height: 75px;
+background: #f00;
+border-radius: 50%;
+margin: 25px 60px; 
+}
+/*--------------------------------------------
+------------NORWEGIAN FLAG--------------------
+*/
+.nor-red {
+	background: #F52F43;
+	z-index: 1;
+	position: relative;	
+}
+
+.vert-line {
+	height: 125px;
+	width: 15px;
+	background: #3F4B72;
+	margin: 0px 7.5px;
+	position: relative;
+	z-index: 4;
+}
+
+.vert-line-white {
+	height: 125px;
+	width: 30px;
+	background: #fff;
+	position: relative;
+	left: 50px;
+	top: -30px;
+	z-index: 2
+}
+
+.horiz-line {
+	height: 15px;
+	width: 200px;
+	background:#3F4B72;
+	position: relative;
+	top: 7.5px;
+	z-index: 5
+}
+
+.horiz-line-white {
+	height: 30px;
+	width: 200px;
+	background: #fff;
+	position: relative;	
+	top: 50px;
+	}
+
+/*----------------------------------------------
+--------------ENGLAND'S FLAG--------------------
+*/
+
+.eng-blue {
+	background: #042678;
+	z-index: 1;
+	position: absolute;
+}
+
+.vert-line-eng {
+	height: 125px;
+	width: 20px;
+	background: #f00;
+	position: relative;
+	z-index: 100;
+	top: -20px;
+	left: 90px;
+}
+
+.vert-eng-white {
+	background: #fff;
+	height: 125px;
+	width: 36px;
+	position: relative;
+	top: -145px;
+	left: 82px;
+	z-index: 50;
+}
+
+.horiz-line-eng {
+	/*margin: 0px auto;*/
+    width: 100%;
+    height: 20px;
+    background-color: #f00;
+    position: relative;
+    top: 50px;
+    z-index: 51;
+    box-shadow: 0 0 0 7px #fff;
+}
+
+.upward-diag-eng {
+        width: 238px;
+        height: 108px;
+        border-bottom: 20px solid #fff;
+        -webkit-transform:
+            translateY(-20px)
+            translateX(5px)
+            rotate(30deg); 
+        position: relative;
+        top: -297px;
+        left: 2px;
+        z-index: 20
+    }
+
+.upward-diag-eng-red {
+        width: 238px;
+        height: 108px;
+        border-bottom: 7px solid #f00;
+        -webkit-transform:
+            translateY(20px)
+            translateX(5px)
+            rotate(-29deg);
+        position: relative;
+        top: -593px;
+        right: 50px;
+        z-index: 31;
+    }
+
+.downward-diag-eng {
+        width: 238px;
+        height: 108px;
+        border-bottom: 20px solid #fff;
+        -webkit-transform:
+            translateY(20px)
+            translateX(5px)
+            rotate(-29deg);
+        position: relative;
+        top: -469px;
+        right: 50px;
+        z-index: 20;
+    }
+
+ .downward-diag-eng-red {
+        width: 238px;
+        height: 108px;
+        border-bottom: 7px solid #f00;
+        -webkit-transform:
+            translateY(-20px)
+            translateX(5px)
+            rotate(-120deg); 
+        position: relative;
+        top: 112px;
+        right: 53px;
+        z-index: 300;
+    }
+
+
+
