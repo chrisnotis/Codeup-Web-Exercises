@@ -2,6 +2,7 @@ p {
 	font-size: 24px;
 	font-weight: bold;
 	margin: 5px 0px 0px 0px;
+	font-family: 'PT Sans', sans-serif;
 }
 
 /*div:nth-last-of-type(3) {
@@ -19,6 +20,7 @@ p {
 	background-repeat: no-repeat;
 	background-position: top right;
 	padding: 40px 40px 0px 0px; 
+	font-family: 'Poiret One', cursive;
 }
 
 .inside {
@@ -29,11 +31,12 @@ p {
 	padding: 10px;
 	position: relative;
 	border: 1px solid black;
+	font-size: 45px;
 }
 
 #red-box { 
 	background-color:#D84231;
-	font-size: 48px;
+
 }
 
 #orange-box {
@@ -42,7 +45,7 @@ p {
 
 #yellow-box {
 	background-color:#FDF733;
-	
+	color: #999;
 }
 
 #green-box {
