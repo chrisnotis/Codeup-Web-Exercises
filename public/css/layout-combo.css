@@ -1,0 +1,60 @@
+
+body {
+	background: #e1e1e1;
+}
+
+.popular-links{
+	list-style-type: none;
+}
+.top-nav {
+	height: 100px;
+	width: 100%;
+	background: #fff; 
+	float: left;
+	color: #999;
+	font-size: 48px;
+	text-align: center;
+	font-family: helvetica;
+	background-image: url("/img/space-background.jpg");
+}
+
+.left-nav {
+	height: 100%;
+	width: 150px;
+	padding: 20px;
+	margin-right: 20px;
+	background: #fff;
+	float: left;
+	border-radius: 3%;
+	}
+
+.right-nav {
+	height: 100%;
+	width: 150px;
+	padding: 20px;
+	margin-right: 20px;
+	background: #fff;
+	float: right;
+	border-radius: 3%;
+	}	
+
+.footer {
+	background-color: #000;
+	color: #fff;
+	clear: both;
+	text-align: center;
+}
+
+.deathstar {
+	height: auto;
+	width: auto;
+	max-height: 300px;
+	max-width: 300px;
+	float: left;
+}
+
+.bottom-links {
+	padding-right: 25px;
+	list-style-type: none;
+	display: inline;
+	}

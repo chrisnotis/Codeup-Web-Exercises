@@ -1,9 +1,15 @@
 html {
-	font-family: "helvetica", "bakersville", sans-serif;	
+	font-family: "helvetica", "bakersville", sans-serif;
+	padding-left: 10px;	
 }
 
 
 h1, h2 {
 	color: #770000;
 	text-decoration: underline;
+}
+
+p,
+a {
+	padding-left: 12px;
 }
