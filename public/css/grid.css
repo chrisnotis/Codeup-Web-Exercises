@@ -33,7 +33,10 @@ FRAMEWORK BUILD OUT
     background: #999;
     border: 2px solid #ff6600;
 }
-.column.one-half {
+.column.one-half,
+.column.two-fourth,
+.column.three-sixth
+ {
     width: 50%;
     background: #336666;
     border: 2px solid #000;
@@ -55,5 +58,17 @@ FRAMEWORK BUILD OUT
 	width: 12.5%;
     background: #6699ff;
     border: 2px solid #000099;	
+}
+
+.column.two-third {
+    width: 66.6666%;
+    background: #3300cc;
+    border: 2px solid #ffff00;
+}
+
+.column.three-eighth {
+    width: 37.5%;
+    background: #cc0033;
+    border: 2px solid #003399;
 }
  
