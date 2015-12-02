@@ -1,3 +1,7 @@
+/*-------------------
+STANDARD FORMATTING
+---------------------*/
+
 html {
 	box-sizing: border-box;
 }
@@ -20,6 +24,10 @@ html {
     float: left;
     padding: 10px;
 }
+
+/*--------------------
+FRAMEWORK BUILD OUT
+----------------------*/
 .column.one-third {
     width: 33.33%;
     background: #999;
