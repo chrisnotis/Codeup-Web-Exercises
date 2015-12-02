@@ -22,19 +22,30 @@ html {
 }
 .column.one-third {
     width: 33.33%;
+    background: #999;
+    border: 2px solid #ff6600;
 }
 .column.one-half {
     width: 50%;
+    background: #336666;
+    border: 2px solid #000;
 }
 
 .column.one-fourth {
 	width: 25%;
+	background: #003366;
+	border: 2px solid #fff666;
 }
 
 .column.one-sixth {
-	width: 16.6%
+	width: 16.6666%;
+	background: #ffcc00;
+	border: 2px solid #9999cc;
 }
 
 .column.one-eighth {
 	width: 12.5%;
+    background: #6699ff;
+    border: 2px solid #000099;
+	
 }
