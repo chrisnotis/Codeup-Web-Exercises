@@ -71,4 +71,23 @@ FRAMEWORK BUILD OUT
     background: #cc0033;
     border: 2px solid #003399;
 }
+
+/*---------------------------
+    OFFSETS
+----------------------------*/
  
+.offset-one-half {
+    margin-left: 50%;
+}
+
+.offset-one-third {
+    margin-left: 33.333%;
+}
+
+.offset-two-third {
+    margin-left: 66.6666%;
+}
+
+.offset-one-fourth {
+    margin-left: 25%;
+}
