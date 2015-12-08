@@ -1,0 +1,55 @@
+
+
+.red-box {
+	background-color: red;
+	height: 25%;
+	padding: 1.5rem;
+	margin: 1.5rem;
+	float: left;
+}
+
+.green-box {
+	background-color: green;
+	height: 25%;
+	padding: 1.5rem;
+	margin: 1.5rem;
+	float: left;
+}
+
+.blue-box {
+	background-color: blue;
+	height: 25%;
+	padding: 1.5rem;
+	margin: 1.5rem;
+	float: left;
+}
+
+.orange-box {
+	background-color: orange;
+	height: 25%;
+	padding: 1.5rem;
+	margin: 1.5rem;
+	float: left;
+}
+
+.purple-box {
+	background-color: purple;
+	height: 25%;
+	padding: 1.5rem;
+	margin: 1.5rem;
+	float: left;
+}
+
+
+ /* 80% under 550px  and 30% over 550px*/
+@media screen and (max-width: 550px) {
+	.box {
+		width: 80%; 
+	}
+}
+
+@media screen and (min-width: 551px) {
+	.box {
+		width: 30%;
+	}
+}
