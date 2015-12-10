@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TPS Reports</title>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		<nav class="nav navbar-inverse">
+			<img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%9740&w=100&h=40">
+			<ul class="nav navbar-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+				<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=84&txt=900%C3%97350&w=900&h=350" alt="a 900 by 350 box">
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+				<h2>Do Your TPS Reports Have a Cover Sheet?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<button type="button" class="btn btn-primary">Attach TPS Cover Sheet</button>
+			</div>
+			<hr class="divider">
+
+
+		</div>
+	</div>	
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
