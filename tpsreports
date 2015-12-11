@@ -3,19 +3,19 @@
 <head>
 	<title>TPS Reports</title>
 	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
 	<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 		<nav class="nav navbar-inverse">
-			<img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%9740&w=100&h=40">
 			<ul class="nav navbar-nav">
 				<li><a href="#">About</a></li>
 				<li><a href="#">Services</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
+	<img src="https://placeholdit.imgix.net/~text?txtsize=9&txt=100%C3%9740&w=100&h=40">
 	</div>
 	<div class="container">
 		<div class="row">
@@ -32,8 +32,34 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 				<button type="button" class="btn btn-primary">Attach TPS Cover Sheet</button>
-			</div>
-			<hr class="divider">
+			</div> 
+		</div>
+		<hr class="divider">
+		<div class="well well-sm text-center alert alert-warning">This is a well that is a great spot for a business tagline or phone number for easy access!</div>
+		<div class="row">
+        <div class="col-md-4">
+          <h2>Heading1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+          <p><a class="btn btn-default" href="#" role="button">More Info</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+          <p><a class="btn btn-default" href="#" role="button">More Info</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+          <p><a class="btn btn-default" href="#" role="button">More Info</a></p>
+        </div>
 
 
 		</div>
