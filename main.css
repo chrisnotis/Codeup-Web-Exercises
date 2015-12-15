@@ -1,0 +1,26 @@
+
+.container {
+	background-color: blue;
+	margin: 0px;
+	max-width: 900px;
+	margin: auto;
+	padding: 75px 0px;
+	height: 900px;
+}
+
+.big-rectangle {
+	height: 300px;
+	/*width: 200px;*/
+	background-color: #000;
+	/*margin: 25px 10px;*/
+	border: 1px solid red;
+	margin-bottom: 25px;
+}
+
+.row-main {
+
+}
+
+.offset-custom {
+	margin-left: 6.1666%;
+}
