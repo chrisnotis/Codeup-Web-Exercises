@@ -1,26 +1,64 @@
 
+
+
+h4 {
+	border-bottom: 2px dotted #fff;
+	color: #fff;
+}
+
+
+p {
+	color: #fff;
+}
+
+h6 {
+	line-height: .75rem;
+	color: #fff;
+}
+
+img {
+	box-shadow: 0px 8px 10px #222;
+	/*height: 139px;
+	max-height: 139px;
+	min-height: 139px;*/
+	/*min-width: 202.5px;*/
+}
+
 .container {
-	background-color: blue;
+	background-image: url("wood.jpg");
 	margin: 0px;
 	max-width: 900px;
 	margin: auto;
-	padding: 75px 0px;
+	padding: 60px 0px;
 	height: 900px;
 }
 
 .big-rectangle {
+	background-image: url("wood.jpg");
 	height: 300px;
-	/*width: 200px;*/
-	background-color: #000;
-	/*margin: 25px 10px;*/
-	border: 1px solid red;
-	margin-bottom: 25px;
-}
-
-.row-main {
-
+	/*width: 210px;*/
+	background-color: #fff;
+	margin-bottom: 35px;
+	text-align: center;	
+	position: relative;
+	padding-bottom: 10px;
 }
 
 .offset-custom {
 	margin-left: 6.1666%;
+}
+
+
+.h6links {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	left: -5px;
+}
+
+.small-text {
+	font-size: .95rem;	
+	text-align: justify;
+	line-height: 1rem;
+	margin-bottom: 2rem;
 }
