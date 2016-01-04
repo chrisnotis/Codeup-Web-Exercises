@@ -1,0 +1,36 @@
+.base-background {
+  margin: 15px;
+  /*background-color: #000;*/
+}
+
+.border-wt {
+  height: 300px;
+  /*margin: 0;*/
+  /*border: 10px solid white;*/
+}
+
+.top-nav {
+  background-color: none;
+}
+
+.subject-box {
+  background-color: #000;
+  text-align: center;
+  text-decoration: underline; 
+  font-size: 7rem;
+  padding-top: 30%;
+  opacity: .7;
+}
+
+span {
+  color: #999;
+  text-decoration: none;
+}
+
+.bio-brief {
+  font-family: times;
+  padding-top: 7px;
+  background-color: #fff;
+  font-size: 1.75rem;
+  text-align: justify;
+}
