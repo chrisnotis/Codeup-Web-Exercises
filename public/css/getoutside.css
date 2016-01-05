@@ -3,6 +3,10 @@
   /*background-color: #000;*/
 }
 
+.base-background2 {
+  background-color: #000;
+}
+
 .border-wt {
   height: 300px;
   /*margin: 0;*/
@@ -29,7 +33,7 @@ span {
 
 .bio-brief {
   font-family: times;
-  padding-top: 7px;
+  padding-top: 7px;œ
   background-color: #fff;
   font-size: 1.75rem;
   text-align: justify;
