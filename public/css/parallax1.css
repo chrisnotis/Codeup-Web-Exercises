@@ -185,3 +185,8 @@ h2 {
   top: 25%;
   transform: rotate(90deg);
 }
+
+.bio-brief {
+  font-size: 1.15rem;
+  text-align: justify;
+}
