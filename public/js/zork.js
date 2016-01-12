@@ -38,6 +38,7 @@ while(currentLocation!=winDestination){
 		case "forest":
 			alert(forestMessage);
 			response = prompt("Where would you like to go next?");
+			response = response.toLowerCase();
 			if (response==="go west"){
 				currentLocation = "house";
 			} else if (response==="go south"){
@@ -48,7 +49,9 @@ while(currentLocation!=winDestination){
 		break;
 		case "house":
 			alert(houseMessage);
+			response = response.toLowerCase();
 			response = prompt("Where would you like to go next?");
+			response = response.toLowerCase();
 			if(response==="go inside"){
 				currentLocation = winDestination;
 				alert(winMessage);
@@ -58,7 +61,9 @@ while(currentLocation!=winDestination){
 		break;
 		case "clearing":
 			alert(clearingMessage);
+			response = response.toLowerCase();
 			response = prompt("How about now?");
+			response = response.toLowerCase();
 			if(response==="go west"){
 				currentLocation = "pond";
 			}else {
@@ -67,7 +72,9 @@ while(currentLocation!=winDestination){
 		break;
 		case "pond":
 			alert(pondMessage);
+			response = response.toLowerCase();
 			response = prompt("Another direction? Or, some fresh water?");
+			response = response.toLowerCase();
 			if (response==="go north"){
 				currentLocation = "house";
 			}else if (response==="get a drink"){
