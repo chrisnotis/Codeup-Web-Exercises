@@ -64,17 +64,17 @@
                       //   BREAK EXERCISE and CONTINUE
 //*********************************************************************************************
 
-do {
-	var num = Math.floor((Math.random()*50)+1)
-} while (num % 2 ==0) {
-	console.log("random odd: " +num)
-};
+// do {
+// 	var num = Math.floor((Math.random()*50)+1)
+// } while (num % 2 ==0) {
+// 	console.log("random odd: " +num)
+// };
 
-for (num = 1 ; num <= 50 ; num++) {
-	if(num % 2 !==0) {
-		console.log("ha ha odd: " +num);
-	}
-}
+// for (num = 1 ; num <= 50 ; num++) {
+// 	if(num % 2 !==0) {
+// 		console.log("ha ha odd: " +num);                                           
+// 	}
+// }
 
  // ********************************************************************************************
                       //   TERNARY EXAMPLES
@@ -84,3 +84,70 @@ for (num = 1 ; num <= 50 ; num++) {
 
 // isYellow = (color==="yellow")?true:false;
 
+/* other way to comment out multiple line code in JavaScript
+    Second line 
+    Third line... then end with */
+  
+ // ********************************************************************************************
+                      //   FUNCTIONS EXAMPLES
+//*********************************************************************************************
+
+// function sum(numberOne, numberTwo){
+//   return numberOne + numberTwo;
+// }
+
+// console.log (sum(10,11));
+
+
+// function isEven(input) {
+//   var remainder = input % 2;
+//   if (remainder === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isEven(20));
+// console.log(isEven(213));
+// console.log(isEven(202345345));
+
+// function toGoldBars(){
+
+// }
+
+// function toGoldBars(numberOfUSD) {
+//   return numberOfGoldBars / 500000;
+// }
+
+// function toUSD(numberOfGoldBars) {
+//   return numberOfGoldBars * 500000;
+// }
+
+// var goldBarCount = prompt("how many gold bars do you have?");
+// console.log(toUSD(goldBarCount));
+
+// function isThisEnoughForATank(value, currency) {
+//   var costOfTank = 7500000;
+//   if(currency === "USD") {
+//     if(value >= costOfTank) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+
+//     }else if (currency === "GOLD") {
+//       var usd = toUSD(value);
+//       return true;
+//     } else {
+//       return false
+//     }
+//   }
+
+// var kevinHasEnough = isThisEnoughForATank(3.5, "GOLD");
+// console.log(kevinHasEnough);
+
+
+ // ********************************************************************************************
+                      //    EXAMPLES
+//*********************************************************************************************
