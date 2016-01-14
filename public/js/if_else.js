@@ -149,5 +149,17 @@
 
 
  // ********************************************************************************************
-                      //    EXAMPLES
+                      // GLOBAL VARIABLE EXAMPLES
 //*********************************************************************************************
+
+var globalVar = "Look, I\'m a Global!";
+
+sayHello();
+
+function  sayHello() {
+  var localVar = "Look I am local!";
+}
+
+alert(localVar);
+
+alert(globalVar);
