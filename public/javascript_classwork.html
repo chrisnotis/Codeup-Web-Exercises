@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script> 
+(function () {
+
+	"USE STRICT";
+
+
+// *************************************************
+         // STRING TO UPPER
+// ************************************************
+
+// var firstName ="joe";
+
+// function getName(name) {
+// 	return name.toUpperCase() + " Hello";
+// }
+
+// console.log(getName(firstName));
+
+// *************************************************
+         // CONCATANATE 3 WORDS
+// ************************************************
+
+// var fName = "Christopher ";
+// var mName = "J. ";
+// var lName = "Harman";
+
+// function wholeName() {
+// 	return fName.concat(mName, lName);
+// }
+
+// console.log(wholeName());
+
+// *************************************************
+         // CHANGE FARENHEIT TO CELCIUS
+// ************************************************
+
+//     /1.8 - 32
+
+// function convertTemp() {
+// 	do {
+// 		var tempC = prompt("What temperature would you like to convert to Celcius?");
+// 	} while (isNaN(tempC));
+
+// 	return ((tempC-32)/1.8);	
+// }
+// console.log(convertTemp());
+	
+
+// *************************************************
+         // CHANGE LBS TO KG
+// ************************************************
+
+// function convertLbs() {
+// 	do {
+// 		var lbsKgs = prompt("What weight would you like to convert to kilograms?");
+// 	} while (isNaN(lbsKgs));
+
+// 	return (lbsKgs/2.2);	
+// }
+// console.log(convertLbs());
+
+
+// *************************************************
+         // STRING BETWEEN 5 - 10 CHARACTERS
+// ************************************************
+
+// function string5to10() {
+// 	do {
+// 		var stringLength = prompt("Enter a string between 5 and 10 characters:")
+// 		console.log(stringLength.length);
+// 	} while (stringLength.length <= 5 || stringLength.length >= 10);
+	
+// 	return stringLength;
+// }
+ 
+//  console.log(string5to10());
+
+// *************************************************
+         // IS A LETTER A VOWEL
+// ************************************************
+
+// function isItAVowel(vowel) {
+// 	var vowel = prompt("Enter a letter:");
+// 	vowel = vowel.toLowerCase();
+//  if (vowel === "a"||vowel === "e"||vowel === "i"||vowel === "o"||vowel === "u"){
+// 	document.write("you entered a vowel!");
+
+// } else {document.write("you did not enter a vowel");
+// }
+// }
+
+// isItAVowel();
+
+
+var  vowels= "aeiouAEIOU";
+
+function isVowel(letter) {
+
+	if(vowels.indexOf(letter) > -1) {
+		
+		return true;
+	}
+		return false;
+	}
+
+// TERNARY OPTION----------
+
+// return(vowels.indexOf(letter) > -1)? true : false;
+// }
+
+console.log(isVowel("i"));
+}) ();
+
+	</script>
+	<title></title>
+</head>
+<body>
+
+	
+
+</body>
+</html>

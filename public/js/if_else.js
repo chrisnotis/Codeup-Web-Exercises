@@ -151,15 +151,16 @@
  // ********************************************************************************************
                       // GLOBAL VARIABLE EXAMPLES
 //*********************************************************************************************
+// global variable available inside a function (local are not available outside the function)
 
-var globalVar = "Look, I\'m a Global!";
+// var globalVar = "Look, I\'m a Global!";
 
-sayHello();
+// sayHello();
 
-function  sayHello() {
-  var localVar = "Look I am local!";
-}
+// function  sayHello() {
+//   var localVar = "Look I am local!";
+// }
 
-alert(localVar);
+// alert(localVar);
 
-alert(globalVar);
+// alert(globalVar);

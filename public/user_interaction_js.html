@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script>
+	<script type="text/javascript">
 
 // todo: Ask the user for their name.
 //       Keep asking if an empty input is provided.
+(function() {
+	"use strict";
 
-"USE STRICT"
+	var name;
 
+	do {
+		name = prompt("Hello, what is your name?");
+	} while(!name);
 
+	alert("Hey " + name + ", hope you\'re having a great day!");
 
- do {
- 	var name = prompt("Hello, what is your name?");
-} while (name === "");
+	var confirm = confirm(name + ", do you like pizza?");
+		if(confirm) {
+			alert("yum, me too!");
+		} else {
+			alert("that is just crazy talk! How can you not like pizza?");
+		}
 
-alert("Hey " + name + ", hope you\'re having a great day!");
+	// todo: Show an alert message that welcomes the user based on their input.
 
-var confirm = confirm(name + ", do you like pizza?");
-	if(confirm) {
-		alert("yum, me too!");
-	} else {
-		alert("that is just crazy talk! How can you not like pizza?");
-	}
-
-// todo: Show an alert message that welcomes the user based on their input.
-
-// todo: Ask the user if they like pizza.
-//       Based on their answer show a creative alert message.
+	// todo: Ask the user if they like pizza.
+	//       Based on their answer show a creative alert message.
+})();
 
 
 	</script>
