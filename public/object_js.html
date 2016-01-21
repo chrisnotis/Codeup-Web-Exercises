@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script> 
+(function () {
+
+	"USE STRICT";
+
+
+
+// *************************************************************
+         // OBJECT EXERCISE 4.6
+// *************************************************************
+
+// todo:
+// Create person object with firstName and lastName properties (set to your first and last name).
+// var person = todo;
+
+var person = {};
+
+person.fName = "Chris";
+person.lName = "Harman";
+
+person.sayHello = function() {
+	alert(this.fName + " " + this.lName + ", Hello")
+}
+
+person.sayHello();
+
+// todo:
+// Add a say hello method to the person object that alerts hello using the firstName and lastName properties.
+
+// Say hello from the person object.
+// person.sayHello();
+
+
+// var car = new Object() OR, 
+
+// var car = {};
+
+// car.make = "Toyota";
+// car.model = "Camry";
+
+
+
+// could also have var array = ["Toyota", "Pontiac"] then, car.make = array;
+
+// car.make = ["Toyota", "Pontiac"];
+// car.model = "Matrix";
+// car.doorCount = "4";
+// car.year = "1995";
+// car.bodyStyle = "car";
+// car.clean = true;
+// car.engine = {};
+
+// console.log(car);
+// // can also be car["model"] = "Camry"----------ANOTHER OPTION 
+// // can also have undefined, boolean, empty
+// console.log(car.year);
+
+// car.honk = function() {
+// 	alert("honk, honk!");
+// }
+
+// car.honk();
+
+
+// *************************************************************
+         // JSON
+// *************************************************************
+
+
+// JSON OBJECTS	
+{
+	"name1" : "value1",
+	"name2" : "value2"
+}
+
+
+}) ();
+
+</script>
+<body>
+
+</body>
+
+</html>
