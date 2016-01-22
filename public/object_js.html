@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+   
+
 	<script> 
 (function () {
 
@@ -71,11 +73,27 @@ person.sayHello();
 
 
 // JSON OBJECTS	
-{
-	"name1" : "value1",
-	"name2" : "value2"
-}
+// {
+// 	"name1" : "value1",
+// 	"name2" : "value2"
+// }
 
+var names = [
+		"Boris",
+		"Holly",
+		"Marty",
+		"Milo", 
+		"Kailani",
+];
+				// element would be better as firstName - the element in the array
+				// array - is the entire array - NEVER USED
+				// index - is where the element is indexed - i.e. [0] 
+
+	names.forEach(function (element, index, array) {
+			 // element, index and array are just parameters - element=value from array(1 entry at a time)
+			 // 
+			 console.log("welcome " + element + " to Balboa");
+	})
 
 }) ();
 

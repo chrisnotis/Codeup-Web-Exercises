@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        #map-canvas {
+            width: 770px;
+            height: 481px;
+        }
+    </style>
+</head>
+<body>
+    <!-- div to hold map -->
+    <div id="map-canvas"></div>
+
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB8qXATa0uy6PwNMyYdcPAJgDrHdfSMvE"></script>
+
+
+   <!-- Script to show address on map -->
+    <script type="text/javascript">
+    (function() {
+        "use strict";
+
+        var mapOptions = {
+        	zoom: 18, 
+
+        	center : {
+        		lat: 41.3470922,
+        		lng: -81.823315
+        	}
+        };
+
+        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+        var kettle = {lat: 41.3470922, lng: -81.823315 };
+
+        var marker = new google.maps.Marker({
+        	position: kettle, 
+        	map: map
+        });
+ 
+    })();
+    </script>
+</body>
+</html>
