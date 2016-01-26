@@ -12,11 +12,11 @@
     <p id="main-paragraph">Make a paragraph with a list in it. 
       <ul>
         <li class="beers">90 Minute</li>
-        <li class="beers">Old 21</li>
+        <li>Old 21</li>
         <li class="beers">Head Hunter</li>
       </ul>
     </p>
-    <p>this is another paragraph</p>
+    <p id="beers">this is another paragraph</p>
   </div>
 
      <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
@@ -27,11 +27,9 @@
         "use strict";
 
             $(document).ready(function() {
-              alert( 'The DOM has finished loading!' );
+              console.log( 'The DOM has finished loading!' );
           
-              alert($("#main-paragraph").html());
-
-               alert($("#main-header").html());
+            $(".beers").css("border", "1px solid red");
 
           });
      
