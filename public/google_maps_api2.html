@@ -37,8 +37,21 @@
 
         var marker = new google.maps.Marker({
         	position: kettle, 
-        	map: map
+        	map: map 
         });
+        
+        var infowindow = new google.maps.InfoWindow({
+   		     content: "<strong>Brew Kettle</strong> - Some of the best <strong>craft beer</strong> and food you can get in Cleveland!<br> My personal favorite is <strong> Old 21 </strong> Other fine beers include;
+   		 <ul>
+   		 	<li><a href=\"//thebrewkettle.com/beers/white_rajah/index.php\">White Rajah</a></li>
+   		 	<li><a href=\"//thebrewkettle.com/beers/All-For-One/index.php\">All For One</a></li>
+   		 	<li></li>
+   		 	<li></li>
+   		 </ul>"
+
+        });
+
+        infowindow.open(map, marker);
  
     })();
     </script>
