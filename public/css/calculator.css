@@ -1,0 +1,46 @@
+/*********************************************************************
+					GENERAL STYLES
+**********************************************************************/
+
+.container {
+	width: 30%;
+	height: auto;
+	max-width: 100%;
+	margin-top: 7rem;
+	margin-left: 15rem;
+}
+
+/*********************************************************************
+					INPUT BOXES
+**********************************************************************/
+
+.input-boxes {
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
+
+#first-operand, #second-operand {
+	width: 6rem;
+}
+
+#operator-box {
+	width: 3rem;
+}
+
+/*********************************************************************
+					NUMBERS
+**********************************************************************/
+
+.number-boxes {
+
+}
+
+button {
+	height: 1.5rem;
+	width: 6rem;
+	float: left;
+	border: 1px solid gray;
+	text-align: center;
+	margin: 2px;
+}
