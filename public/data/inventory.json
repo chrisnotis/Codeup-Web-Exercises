@@ -24,11 +24,33 @@
         ],
         "price": 200
     }, {
-        "title": "Screwdrivers",
-        "quantity": 25,
+        "title": "Chainsaw",
+        "quantity": 45,
+        "categories": [
+            "tool",
+            "powered"
+        ],
+        "price": 195
+    }, {
+        "title": "Plunger",
+        "quantity": 4,
         "categories": [
             "tool"
         ],
-        "price": 10
+        "price": 7
+    }, {
+        "title": "Dremmel",
+        "quantity": 23,
+        "categories": [
+            "tool"
+        ],
+        "price": 125
+    }, {
+        "title": "Chisel",
+        "quantity": 11,
+        "categories": [
+            "tool"
+        ],
+        "price": 23
     }
 ]

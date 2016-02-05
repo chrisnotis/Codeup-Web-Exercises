@@ -1,0 +1,18 @@
+
+
+.weather-box {
+	width: 80vw;
+	height: 100%;
+	background-color: #abdcfd;
+
+}
+
+.day {
+	width: 25vw ;
+	float: left;
+	background-color: #fff:;
+	border: 2px solid gray;
+	text-align: center;
+	line-height: 12px;
+	padding: 15px 0px;
+}

@@ -70,10 +70,6 @@ $(document).ready(function() {
 		console.log(num);
 	});
 
-	// $("#equals").click(function(){
-	// 	var firstOperand = $("#first-operand").val();
-	// 	console.log(firstOperand);
-	// });
 
 /**********************************************************
 		OPERATOR BOX/CLEAR BUTTON
@@ -156,7 +152,7 @@ $(document).ready(function() {
 		}
 
 			console.log(result);
-			var answer = $(result).val();
+			
 
 	});
 
