@@ -16,3 +16,8 @@
 	line-height: 12px;
 	padding: 15px 0px;
 }
+
+#map {
+	width: 100vw;
+	height: 300px;
+}

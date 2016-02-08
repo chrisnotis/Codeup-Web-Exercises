@@ -27,7 +27,6 @@ $(document).ready(function() {
 				buildWeatherDiv(data)
 			
 			);
-
 		});
 
 	});
@@ -63,17 +62,17 @@ $(document).ready(function() {
 			return newDay;
     }
 
-    function buildGoogleMap(map) {
+    function buildGoogleMap() {
     	var mapOptions = {
         	zoom: 18, 
 
         	center : {
 			    lat:    29.423017,
-			    lon:   -98.48527,
+			    lng:   -98.48527,
         	}
         };
 
-        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   
 
@@ -93,7 +92,9 @@ $(document).ready(function() {
 
         // });
 
-        infowindow.open(map, marker);
+        // infowindow.open(map, marker);
     }
+
+    buildGoogleMap();
 
 
