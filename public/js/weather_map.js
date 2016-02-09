@@ -10,17 +10,18 @@ $(document).ready(function() {
 	$.get("http://api.openweathermap.org/data/2.5/forecast/daily", {	
 
 		APPID: "1537d0ef8c38bcd9a1289216d38cffa1",
-		q: "San Antonio, TX",
-		units: 	"imperial",
-		cnt: "3" 
+		    lat:    29.423017,
+    		lon:   -98.48527,
+			units: 	"imperial",
+			cnt: "3" 
 	}).done(function(data) {
 		console.log(data);
 
 
 
-		$("#city").append(
-			"<h1>" + data.city.name + "</h1>"
-		); 
+		// $("#city").append(
+		// 	"<h1>" + data.city.name + "</h1>"
+		// ); 
 			
 		data.list.forEach(function(data) {
 			$("#weather").append(
@@ -64,7 +65,7 @@ $(document).ready(function() {
 
     function buildGoogleMap() {
     	var mapOptions = {
-        	zoom: 18, 
+        	zoom: 12, 
 
         	center : {
 			    lat:    29.423017,
@@ -73,6 +74,21 @@ $(document).ready(function() {
         };
 
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var weatherMark = {lat: 29.423017, lng: -98.48527};
+
+        // var marker = new google.maps.Marker({
+        // 	position: weatherMark, 
+        // 	map: map
+        // });
+
+        	var marker = new google.maps.Marker({
+    		position: weatherMark,
+    		map: map,
+    		draggable:true,
+    		title:"Weather looks good here!"
+
+        });
 
   
 
