@@ -26,7 +26,6 @@ $(document).ready(function() {
 		data.list.forEach(function(data) {
 			$("#weather").append(
 				buildWeatherDiv(data)
-			
 			);
 		});
 
